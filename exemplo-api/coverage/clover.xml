@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1697391550990" clover="3.2.0">
+  <project timestamp="1697391550990" name="All files">
+    <metrics statements="94" coveredstatements="60" conditionals="13" coveredconditionals="3" methods="26" coveredmethods="12" elements="133" coveredelements="75" complexity="0" loc="94" ncloc="94" packages="7" files="14" classes="14"/>
+    <package name="src">
+      <metrics statements="24" coveredstatements="24" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/home/rodrigo/Workspace/arquitetura-hexagonal/exemplo-api/src/index.ts">
+        <metrics statements="24" coveredstatements="24" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.core.shared">
+      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Erros.ts" path="/home/rodrigo/Workspace/arquitetura-hexagonal/exemplo-api/src/core/shared/Erros.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="Id.ts" path="/home/rodrigo/Workspace/arquitetura-hexagonal/exemplo-api/src/core/shared/Id.ts">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.core.usuario.useCase">
+      <metrics statements="19" coveredstatements="9" conditionals="3" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <file name="UCLoginUsuario.ts" path="/home/rodrigo/Workspace/arquitetura-hexagonal/exemplo-api/src/core/usuario/useCase/UCLoginUsuario.ts">
+        <metrics statements="9" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="35" count="0" type="stmt"/>
+      </file>
+      <file name="UCRegistrarUsuario.ts" path="/home/rodrigo/Workspace/arquitetura-hexagonal/exemplo-api/src/core/usuario/useCase/UCRegistrarUsuario.ts">
+        <metrics statements="10" coveredstatements="5" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.external.api">
+      <metrics statements="17" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="3"/>
+      <file name="HomeController.ts" path="/home/rodrigo/Workspace/arquitetura-hexagonal/exemplo-api/src/external/api/HomeController.ts">
+        <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="LoginUsuarioController.ts" path="/home/rodrigo/Workspace/arquitetura-hexagonal/exemplo-api/src/external/api/LoginUsuarioController.ts">
+        <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="RegistrarUsuarioController.ts" path="/home/rodrigo/Workspace/arquitetura-hexagonal/exemplo-api/src/external/api/RegistrarUsuarioController.ts">
+        <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.external.auth.adapter">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <file name="EspacoSenhaCrypto.ts" path="/home/rodrigo/Workspace/arquitetura-hexagonal/exemplo-api/src/external/auth/adapter/EspacoSenhaCrypto.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+      <file name="InverterSenhaCrypto.ts" path="/home/rodrigo/Workspace/arquitetura-hexagonal/exemplo-api/src/external/auth/adapter/InverterSenhaCrypto.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+      <file name="SenhaCrypto.ts" path="/home/rodrigo/Workspace/arquitetura-hexagonal/exemplo-api/src/external/auth/adapter/SenhaCrypto.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.external.db">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="db.ts" path="/home/rodrigo/Workspace/arquitetura-hexagonal/exemplo-api/src/external/db/db.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.external.db.adapter">
+      <metrics statements="14" coveredstatements="2" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="RepositorioUsuarioEmMemoria.ts" path="/home/rodrigo/Workspace/arquitetura-hexagonal/exemplo-api/src/external/db/adapter/RepositorioUsuarioEmMemoria.ts">
+        <metrics statements="8" coveredstatements="0" conditionals="5" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="4"/>
+      </file>
+      <file name="RepositorioUsuarioPg.ts" path="/home/rodrigo/Workspace/arquitetura-hexagonal/exemplo-api/src/external/db/adapter/RepositorioUsuarioPg.ts">
+        <metrics statements="6" coveredstatements="2" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
